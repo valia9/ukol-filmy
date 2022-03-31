@@ -20,12 +20,12 @@ h1 {
 }
 
 .container {
- display: inline-block;
- /* border: 2px solid blueviolet; */
+ display:inline-table;
  background-color: whitesmoke;
  border-radius: 15px;
  justify-content: space-around;
  margin: 2em;
  padding: 0 2em;
-  align-items: center;
+  align-items: start;
 }
+

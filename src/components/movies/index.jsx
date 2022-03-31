@@ -4,7 +4,7 @@ import Actor from '../actor';
 const Movies = ({title, poster, year, rating, director, genre, cast}) => (
     <>
     <h3>{title}</h3>
-    <img src={poster} alt="poster" />
+    <img src={`assets/${poster}`} alt="poster" />
     <p>Premiere: {year}</p>
     <p>Rating: {rating}</p>
     <p>Directed by {director}</p>
