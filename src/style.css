@@ -14,3 +14,18 @@ html {
   height: 1em;
   margin-right: 0.3em;
 }
+
+h1 {
+  text-align: center;
+}
+
+.container {
+ display: inline-block;
+ /* border: 2px solid blueviolet; */
+ background-color: whitesmoke;
+ border-radius: 15px;
+ justify-content: space-around;
+ margin: 2em;
+ padding: 0 2em;
+  align-items: center;
+}
